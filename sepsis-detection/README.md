@@ -1,16 +1,16 @@
-# 🏥 Sepsis Early Detection using Machine Learning
+#  Sepsis Early Detection using Machine Learning
 
 An end-to-end machine learning system that predicts **sepsis onset in ICU patients** from time-series clinical data — before critical deterioration occurs.
 
 ---
 
-## 🔍 Problem Statement
+##  Problem Statement
 
 Sepsis is a life-threatening condition caused by the body's extreme response to infection. Early detection is critical — every hour of delayed treatment increases mortality risk. This system analyzes ICU patient vitals and lab values to flag high-risk patients in real time.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** PhysioNet/CinC Challenge 2019 — ICU time-series clinical data
 - **Size:** 706,781 hourly records across ICU patients
@@ -19,7 +19,7 @@ Sepsis is a life-threatening condition caused by the body's extreme response to 
 
 ---
 
-## ⚙️ Pipeline
+##  Pipeline
 
 ```
 Raw PSV Files → EDA & Preprocessing → Feature Engineering → Model Training → Flask API → React Dashboard
@@ -38,7 +38,7 @@ Raw PSV Files → EDA & Preprocessing → Feature Engineering → Model Training
 
 ---
 
-## 📈 Model Results
+## Model Results
 
 | Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
 |---|---|---|---|---|---|
@@ -52,7 +52,7 @@ Raw PSV Files → EDA & Preprocessing → Feature Engineering → Model Training
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **ML:** Python, Scikit-learn, XGBoost, imbalanced-learn (SMOTE)
 - **Backend:** Flask, Flask-CORS
@@ -87,7 +87,7 @@ npm start
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 sepsis-detection/
@@ -101,7 +101,7 @@ sepsis-detection/
 
 ---
 
-## 🔑 Key Techniques Used
+##  Key Techniques Used
 
 - **SMOTE** for handling severe class imbalance (1.4% positive class)
 - **Threshold tuning** to optimize F1 over default 0.5 cutoff
@@ -111,8 +111,8 @@ sepsis-detection/
 
 ---
 
-## 👤 Author
+##  Author
 
 **Madhu Sudhan Reddy Shevva**  
 B.Tech CSE (Data Science) — CVR College of Engineering, Hyderabad  
-[LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
+[LinkedIn](https://www.linkedin.com/in/madhusudhan-shevva-070a793ab/) | [GitHub](https://github.com/MadhuShevva)
